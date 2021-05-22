@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <p id="description"></p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name"/>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email"/>
+        <label for="number" id="number-label">Number</label>
+        <input type="number" id="number" min="0" max="20"/>
+        <label for="cars">Choose a car:</label>
+
+<select name="cars" id="dropdown">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+        <textarea></textarea>
+        <button type="submit" id="submit"></button>
+    </form>
+</body>
+</html>
